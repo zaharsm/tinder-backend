@@ -20,7 +20,7 @@ app.use(cors());
 mongoose.connect(connection_url, {useUnifiedTopology: true})
 
 //API Endpoints
-app.get("/",(req,res)=> res.status(200).send("Hi Please visit FrontEnd site https://www.google.com"));
+app.get("/",(req,res)=> res.status(200).send("Hi Please visit FrontEnd site https://tinder-clone-d8f43.web.app/"));
 
 
 app.post("/tinder/cards",(req,res) =>{
